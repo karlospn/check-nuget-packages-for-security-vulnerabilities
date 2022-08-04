@@ -12,7 +12,6 @@ COPY /src/VulnerableApp.Library.Impl/*.csproj ./src/VulnerableApp.Library.Impl/
 COPY /src/VulnerableApp.Repository.Contracts/*.csproj ./src/VulnerableApp.Repository.Contracts/
 COPY /src/VulnerableApp.Repository.Impl/*.csproj ./src/VulnerableApp.Repository.Impl/
 COPY /src/VulnerableApp.Core.Extensions/*.csproj ./src/VulnerableApp.Core.Extensions/
-COPY /build/*.props ./build/
 COPY Packages.props ./ 
 
 RUN dotnet restore "./src/VulnerableApp.WebApi/VulnerableApp.WebApi.csproj" -s "https://api.nuget.org/v3/index.json"
