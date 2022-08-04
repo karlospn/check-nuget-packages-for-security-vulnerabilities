@@ -1,3 +1,3 @@
-# How to validate in your CI/CD pipeline if any of the NuGet packages in your application has a security vulnerability
+# How to validate in your CI/CD pipeline if any NuGet package on your application contains a security vulnerability
 
 //TODO
